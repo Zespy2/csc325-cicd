@@ -11,6 +11,7 @@ def hello(request):
 @api_view(["GET"])
 def status(request):
     return Response({
-        "status": "running"
+        "status": "running",
+        "version": "2.0"
     })
 # Create your views here.
